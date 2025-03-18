@@ -1,0 +1,35 @@
+<div class="body">
+
+    <div class="search-container">
+
+        <h1>Bus Search</h1>
+        <form [formGroup]="searchForm"
+              (ngSubmit)="searchBuses()">
+
+            <!-- Source and Destination Input Boxes -->
+            <label for="source">Source:</label>
+            <input type="text"
+                   id="source"
+                   formControlName="source"
+                   placeholder="Enter source city">
+
+            <label for="destination">Destination:</label>
+            <input type="text"
+                   id="destination"
+                   formControlName="destination"
+                   placeholder="Enter destination city">
+
+            <!-- Date Picker -->
+            <label for="date">Date of Travel:</label>
+            <input type="date"
+                   id="date"
+                   name="date"
+                   formControlName="date">
+
+            <!-- Search Button -->
+            <button type="submit"
+                    [disabled]="searchForm.invalid">Search</button>
+        </form>
+
+    </div>
+</div>
