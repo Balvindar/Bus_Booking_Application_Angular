@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { Router } from '@angular/router';
-import { BusService } from '../bus.service';
+import { BusService } from '../sevices/bus.service';
 import { SeatDetails } from '../Model/SeatDetails';
 import { SelectedSeats } from '../Model/SelectedSeats';
 

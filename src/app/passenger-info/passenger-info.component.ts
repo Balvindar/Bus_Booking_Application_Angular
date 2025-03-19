@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormArray, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { BusService } from '../bus.service';
+import { BusService } from '../sevices/bus.service';
 import { PassengerInfo } from '../Model/PassengerInfo';
 
 @Component({

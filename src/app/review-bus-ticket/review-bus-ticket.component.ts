@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { BusService } from '../bus.service';
+import { BusService } from '../sevices/bus.service';
 import { BusDetails } from '../Model/BusDetails';
 import { PassengerInfo } from '../Model/PassengerInfo';
 import { RouteDetails } from '../Model/RouteDetails';

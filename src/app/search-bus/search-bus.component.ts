@@ -1,7 +1,7 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { BusService } from '../bus.service';
+import { BusService } from '../sevices/bus.service';
 import { RouteDetails } from '../Model/RouteDetails';
 
 @Component({
